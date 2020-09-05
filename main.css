@@ -22,10 +22,9 @@ ul {
     background-color: pink;
   }
 
-  div {
+  .div {
     padding: 20px;
     background-color: rgb(244,214,224);
-    font-family: Vladimir Script;
   }
   
 
