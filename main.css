@@ -21,6 +21,11 @@ ul {
   li a:hover {
     background-color: pink;
   }
+
+  div {
+    padding: 20px;
+    background-color: rgb(244,214,224);
+  }
   
 
 
