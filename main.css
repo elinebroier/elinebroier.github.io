@@ -22,8 +22,9 @@ ul {
     background-color: pink;
   }
 
-  .div {
+  div {
     padding: 20px;
+    border: 1px solid black;
     background-color: rgb(244,214,224);
   }
   
