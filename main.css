@@ -30,10 +30,10 @@ ul {
     border: 1px solid black;
     border-radius: 12px;
     background-color: rgb(244,214,224);
-    font-family: Vladimir Script;
     font-size: 30px;
   }
-  
+   /* font-family: Vladimir Script; */
+
   .dropbtn {
     background-color: black;
     color: white;
