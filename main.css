@@ -22,7 +22,7 @@ ul {
     background-color: pink;
   }
 
-  div {
+  .roze {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -31,9 +31,12 @@ ul {
     border-radius: 12px;
     background-color: rgb(244,214,224);
     font-size: 30px;
+    text-align: center;
+    margin: 20px;
   }
    /* font-family: Vladimir Script; */
 
+   
   .dropbtn {
     background-color: black;
     color: white;
@@ -42,6 +45,7 @@ ul {
     border: none;
     cursor: ponter;
   }
+  
   .dropdown {
     position: relative;
     display: inline-block;
@@ -72,6 +76,16 @@ ul {
   .dropdown:hover .dropbtn {
     background-color: pink;
   }
+
+  .header {
+    background-image: url(bloem.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px; 
+  }
+
 
 
 

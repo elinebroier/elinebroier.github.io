@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: transparent;
   }
   
   li {
@@ -12,14 +12,14 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #627693;
   }
 
   body {
@@ -28,3 +28,18 @@ ul {
       background-attachment: fixed;
       background-size: cover;
    }
+
+.vierkant {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    border: 12px double #627693;
+    position: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 65%;
+    color:  #627693;
+    font-family: Vladimir Script;
+    font-size: 40px;
+}
+
