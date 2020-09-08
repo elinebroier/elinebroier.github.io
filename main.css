@@ -19,7 +19,7 @@ ul {
   }
   
   li a:hover {
-    background-color: pink;
+    background-color: #E3B1E9;
   }
 
   .roze {
@@ -33,6 +33,7 @@ ul {
     font-size: 30px;
     text-align: center;
     margin: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
    /* font-family: Vladimir Script; */
 
@@ -85,6 +86,15 @@ ul {
     padding-top: 210px;
     padding-bottom: 210px; 
   }
+
+.textborder {
+  margin-left: 200px;
+  width: 600px;
+  height: 200px;  
+  padding: 100px;
+  border: 1px solid white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
 
 
