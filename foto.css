@@ -1,4 +1,4 @@
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,11 +6,11 @@ ul {
     background-color: transparent;
   }
   
-  li {
+  li.nav {
     float: left;
   }
   
-  li a {
+  li.nav a {
     display: block;
     color: black;
     text-align: center;
@@ -18,8 +18,51 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+  li.nav a:hover {
     background-color: #627693;
+  }
+
+  /* navibar dropdown*/
+ li {
+    float: left;
+  }
+  
+  li, .dropbt {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, dropdown:hover .dropbt {
+    background-color: #627693;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #627693;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #627693;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
 
   body {
@@ -29,6 +72,7 @@ ul {
       background-size: cover;
    }
 
+   /* vierkant om tekst*/
 .vierkant {
     padding-left: 20px;
     padding-right: 20px;
