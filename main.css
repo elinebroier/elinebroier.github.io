@@ -88,7 +88,7 @@ li.dropdown {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 180px; 
+    margin-left: 80px; 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-family: Vladimir Script;
     font-size: 30px;
@@ -118,29 +118,49 @@ li.dropdown {
   }
 
   /* grid rechts*/
-  .item4 { grid-area: right; }
+  .grid { grid-area: right; }
 
   .grid-container {
     display: grid;
     position: absolute;
     top: 600px;
     right: 16px;
-    grid-gap: 10px;
+    left: 810px;
+    grid-gap: 16px;
     background-color: white;
-    padding: 10px;
-  }
-
-  .grid.container > div {
-    background-color: #E3B1E9;
-    text-align: right;
+    padding: 20px;
+    background-color: transparent;
+    text-align: justify;
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 15px;
   }
  .text {
    text-align: right;
  }
+/* block characteristics*/
+ .block {
+  padding-top: 0px;
+  padding-block: 5px;
+  padding-bottom: 0px;
+ 
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 12px;
+  background-color: rgb(244,214,224);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px; 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: Vladimir Script;
+  font-size: 30px;
+}
 
-
+/*border om links dashboard*/
+.tb {
+  border-left: 10px solid #E3B1E9;
+  background-color: whitesmoke;
+}
 
 
 
