@@ -24,27 +24,27 @@ li.nav a:hover {
 }
 
 /* navibar dropdown*/
-ul {
+ul.navi {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   overflow: hidden;
   background-color: black;
 }
 
-li {
+li.navi {
   float: left;
 }
 
-li, .dropbt {
+li.navi, .dropbt {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
 }
 
-li a:hover, dropdown:hover .dropbt {
+li.navi a:hover, dropdown:hover .dropbt {
   background-color: #E3B1E9;
 }
 
@@ -63,7 +63,7 @@ li.dropdown {
 
 .dropdown-content a {
   color: white;
-  padding: 12px 16px;
+  padding: 10px 12px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -75,27 +75,35 @@ li.dropdown {
   display: block;
 }
 
-
-
-
-
-/* roze balkjes*/
+/* roze balk om tekst*/
   .roze {
     padding-top: 10px;
-    padding-right: 10px; 
+    padding-right: 50px; 
     padding-bottom: 10px;
-    padding-left: 5px;
+    padding-left: 50px;
     border: 1px solid black;
-    display: block;
+    display: inline-block;
     border-radius: 12px;
     background-color: rgb(244,214,224);
     font-size: 20px;
     text-align: center;
-    margin-top: 20px; 
+    margin-top: 20px;
+    margin-left: 180px; 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: Vladimir Script;
+    font-size: 30px;
   }
    /* font-family: Vladimir Script; */
 
+/*vierkant om tekst*/
+.textborder {
+  background-color: white;
+  width: 500px;
+  border: 1px solid white;;
+  margin-top: 20px;
+  margin-left: 50px;
+  
+}
 
   /* header bloem foto*/
 
@@ -109,15 +117,29 @@ li.dropdown {
     z-index: 1;
   }
 
-/*vierkanje om tekst*/
-.textborder {
-  margin-left: 200px;
-  width: 600px;
-  height: 200px;  
-  padding: 100px;
-  border: 1px solid white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+  /* grid rechts*/
+  .item4 { grid-area: right; }
+
+  .grid-container {
+    display: grid;
+    position: absolute;
+    top: 600px;
+    right: 16px;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .grid.container > div {
+    background-color: #E3B1E9;
+    text-align: right;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+ .text {
+   text-align: right;
+ }
+
 
 
 
