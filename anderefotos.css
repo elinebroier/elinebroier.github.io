@@ -1,7 +1,6 @@
 div.gallery {
-    border: 1px solid black;
+    border: 3px solid black;
 }
-
 
 
 div.gallery img {
@@ -9,6 +8,11 @@ div.gallery img {
     height: auto;
 }
 
+div.gallery:hover {
+    border: 1px black;
+}
+
+/*voor tekst*/
 div.desc {
     padding: 15px;
     text-align: center;
@@ -44,35 +48,5 @@ div.desc {
 }
 
 
-/*
-body {margin: 20px;}
-* {
-    box-sizing: border-box;
-}
 
-.img-container {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-div.polaroid {
-    width: 80%;
-    margin-top: 80px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 20px;
-}
-
-div.container {
-    text-align: center;
-    padding: 10px 20px;
-}
-*/
 

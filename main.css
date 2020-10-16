@@ -1,4 +1,4 @@
-/* navibalk*/
+    /* navibalk*/
 ul.nav {
   list-style-type: none;
   margin: 0;
@@ -23,7 +23,7 @@ li.nav a:hover {
   background-color: #E3B1E9;
 }
 
-/* navibar dropdown*/
+    /* navibar dropdown*/
 ul.navi {
   list-style-type: none;
   margin: 0;
@@ -75,8 +75,8 @@ li.dropdown {
   display: block;
 }
 
-/* roze balk om tekst*/
-  .roze {
+    /* pink text brorder*/
+  .pink {
     padding-top: 10px;
     padding-right: 50px; 
     padding-bottom: 10px;
@@ -95,7 +95,7 @@ li.dropdown {
   }
    
 
-/*vierkant om tekst*/
+    /*vierkant om tekst*/
 .textborder {
   background-color: white;
   width: 500px;
@@ -105,10 +105,10 @@ li.dropdown {
   
 }
 
-  /* header bloem foto*/
+    /* header bloem foto*/
 
   .header {
-    background-image: url(bloemroze.JPG);
+    background-image: url(photo/bloemroze.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -117,7 +117,7 @@ li.dropdown {
     z-index: 1;
   }
 
-  /* grid rechts*/
+    /* grid rechts*/
   .grid { grid-area: right; }
 
   .grid-container {
@@ -137,12 +137,11 @@ li.dropdown {
  .text {
    text-align: right;
  }
-/* block characteristics*/
+    /* block characteristics*/
  .block {
-  padding-top: 0px;
+  padding-top: -20px;
   padding-block: 5px;
   padding-bottom: 0px;
- 
   border: 1px solid black;
   display: inline-block;
   border-radius: 12px;
@@ -156,11 +155,15 @@ li.dropdown {
   font-size: 30px;
 }
 
-/*border om links dashboard*/
+    /*border om links dashboard*/
 .tb {
   border-left: 10px solid #E3B1E9;
   background-color: whitesmoke;
 }
 
+  /*border around links in motivation*/
+.link {
+  border-left: 10px solid #E3B1E9;
+}
 
 
